@@ -2,10 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Melida.dao;
+package Melida160623.dao;
 import java.util.List;
 import java.util.ArrayList;
-import Melida.model.Anggota;
+import Melida160623.model.Anggota;
 /**
  *
  * @author Lenovo

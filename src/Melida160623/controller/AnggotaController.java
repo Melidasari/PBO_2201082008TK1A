@@ -2,11 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Melida.controller;
-import Melida.model.*;
+package Melida160623.controller;
+import Melida160623.view.FormAnggota;
+import Melida160623.model.Anggota;
+import Melida160623.dao.AnggotaDaoImpl;
+import Melida160623.dao.AnggotaDao;
 import java.util.*;
-import Melida.dao.*;
-import Melida.view.*;
 import javax.swing.table.DefaultTableModel;
 /**
  *
