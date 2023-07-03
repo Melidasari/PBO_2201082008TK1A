@@ -9,32 +9,35 @@ package Melida160623.model;
  * @author Lenovo
  */
 public class Anggota {
-    private String kodeAnggota;
-    private String namaAnggota;
+    private String kodeanggota;
+    private String namaanggota;
     private String alamat;
-    private String jenisKelamin;
+    private String jeniskelamin;
 
-    public Anggota(String kodeAnggota, String namaAnggota, String alamat, String jenisKelamin) {
-        this.kodeAnggota = kodeAnggota;
-        this.namaAnggota = namaAnggota;
+    public Anggota(){
+    }
+
+    public Anggota(String kodeanggota, String namaanggota, String alamat, String jeniskelamin){
+        this.kodeanggota = kodeanggota;
+        this.namaanggota = namaanggota;
         this.alamat = alamat;
-        this.jenisKelamin = jenisKelamin;
+        this.jeniskelamin = jeniskelamin;
+        
+    }
+    public String getKodeanggota() {
+        return kodeanggota;
     }
 
-    public String getKodeAnggota() {
-        return kodeAnggota;
+    public void setKodeanggota(String kodeanggota) {
+        this.kodeanggota = kodeanggota;
     }
 
-    public void setKodeAnggota(String kodeAnggota) {
-        this.kodeAnggota = kodeAnggota;
+    public String getNamaanggota() {
+        return namaanggota;
     }
 
-    public String getNamaAnggota() {
-        return namaAnggota;
-    }
-
-    public void setNamaAnggota(String namaAnggota) {
-        this.namaAnggota = namaAnggota;
+    public void setNamaanggota(String namaanggota) {
+        this.namaanggota = namaanggota;
     }
 
     public String getAlamat() {
@@ -45,13 +48,12 @@ public class Anggota {
         this.alamat = alamat;
     }
 
-    public String getJenisKelamin() {
-        return jenisKelamin;
+    public String getJeniskelamin() {
+        return jeniskelamin;
     }
 
-    public void setJenisKelamin(String jenisKelamin) {
-        this.jenisKelamin = jenisKelamin;
+    public void setJeniskelamin(String jeniskelamin) {
+        this.jeniskelamin = jeniskelamin;
     }
-    
-    
+
 }
